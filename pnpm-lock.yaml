@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      '@yiui/project1': workspace:^1.0.0
+      '@yiui/project2': workspace:^1.0.0
+      '@yiui/project3': workspace:^1.0.0
+    dependencies:
+      '@yiui/project1': link:packages/project1
+      '@yiui/project2': link:packages/project2
+      '@yiui/project3': link:project3

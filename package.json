@@ -1,12 +1,17 @@
 {
-  "name": "yiui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "yiui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@yiui/project1": "workspace:^1.0.0",
+        "@yiui/project2": "workspace:^1.0.0",
+        "@yiui/project3": "workspace:^1.0.0"
+    }
 }
