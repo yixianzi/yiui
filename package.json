@@ -4,14 +4,21 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vite examples"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@yiui/project1": "workspace:^1.0.0",
-        "@yiui/project2": "workspace:^1.0.0",
-        "@yiui/project3": "workspace:^1.0.0"
+        "@yiui/components": "workspace:^",
+        "@yiui/examples": "workspace:^",
+        "@yiui/theme-chalk": "workspace:^",
+        "@yiui/utils": "workspace:^",
+        "vue": "^3.4.27"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.1.4",
+        "vite": "^5.4.8"
     }
 }
