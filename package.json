@@ -14,10 +14,12 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@highlightjs/vue-plugin": "^2.1.0",
         "@yiui/components": "workspace:^",
         "@yiui/examples": "workspace:^",
         "@yiui/theme-chalk": "workspace:^",
         "@yiui/utils": "workspace:^",
+        "highlight.js": "^11.10.0",
         "vue": "^3.4.27"
     },
     "devDependencies": {
